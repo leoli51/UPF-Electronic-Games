@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/BeatBar.h
+image.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/image.h
+framework.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
+
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/Dino.h
 framework.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
@@ -29,6 +35,8 @@ PlayerController.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/PlayerController.h
 DinoAIController.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/DinoAIController.h
+BeatBar.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/BeatBar.h
 
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/PlayerController.h
 Dino.h

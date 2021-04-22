@@ -5,6 +5,7 @@
 #include "Dino.h"
 #include "PlayerController.h"
 #include "DinoAIController.h"
+#include "BeatBar.h"
 
 class IntroStage : public Stage {
     public:
@@ -37,6 +38,8 @@ class PlayStage : public Stage {
         Dino* ai_dino;
         DinoAIController* ai_dino_controller;
 
+        BeatBar* beatbar;
+
     public:
         void init(){
             std::cout<<"Play stage init"<<std::endl;
@@ -45,6 +48,8 @@ class PlayStage : public Stage {
 
             ai_dino = new Dino(Vector2(30,30));
             ai_dino_controller = new DinoAIController(ai_dino);
+
+            beatbar = new BeatBar();
         };
 
         void render(Image* framebuffer){
@@ -52,6 +57,8 @@ class PlayStage : public Stage {
             player_dino->render(framebuffer);
 
             ai_dino->render(framebuffer);
+
+            beatbar->render(framebuffer);
         };
 
         void update(double dt){

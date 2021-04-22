@@ -27,6 +27,7 @@ CMakeFiles/TJE.dir/src/input.cpp.o: src/input.cpp
 CMakeFiles/TJE.dir/src/input.cpp.o: src/input.h
 CMakeFiles/TJE.dir/src/input.cpp.o: src/utils.h
 
+CMakeFiles/TJE.dir/src/main.cpp.o: src/BeatBar.h
 CMakeFiles/TJE.dir/src/main.cpp.o: src/Dino.h
 CMakeFiles/TJE.dir/src/main.cpp.o: src/DinoAIController.h
 CMakeFiles/TJE.dir/src/main.cpp.o: src/GameStages.h
