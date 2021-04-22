@@ -576,4 +576,8 @@ public:
 	bool inside(float px, float py) { return px >= x && py >= y && px < x + w && py < y + h; }
 };
 
+Area intersection_rect(const Area& r1, const Area& r2);
+
+static const Area NULL_AREA(0,0,0,0);
+
 #endif

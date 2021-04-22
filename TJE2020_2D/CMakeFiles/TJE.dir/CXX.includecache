@@ -14,11 +14,29 @@ game.h
 Sprite.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/Sprite.h
 
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/DinoAIController.h
+Dino.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/Dino.h
+framework.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
+
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/GameStages.h
 stage.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/stage.h
 Dino.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/Dino.h
+PlayerController.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/PlayerController.h
+DinoAIController.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/DinoAIController.h
+
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/PlayerController.h
+Dino.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/Dino.h
+input.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/input.h
+framework.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
 
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/Sprite.h
 framework.h

@@ -194,7 +194,7 @@ void Vector3::parseFromText(const char* text, const char separator)
 			strncpy(num, start, current - start);
 			num[current - start] = '\0';
 			start = current + 1;
-			if (num[0] != 'x') //¿?
+			if (num[0] != 'x') //ï¿½?
 				switch(pos)
 				{
 					case 0: x = (float)atof(num); break;
@@ -1326,5 +1326,15 @@ BoundingBox transformBoundingBox(const Matrix44 m, const BoundingBox& box)
 	return BoundingBox(box_max - halfsize, halfsize );
 }
 
+Area intersection_rect(const Area& r1, const Area& r2){
+	float x1 = std::max(r1.x, r2.x);
+	float x2 = std::min(r1.x + r1.w, r2.x + r2.w);
+	float y1 = std::max(r1.y, r2.y);
+	float y2 = std::min(r1.y + r1.h, r2.y + r2.h);
 
+	if (x2 < x1 || y2 < y1)
+		return NULL_AREA;
+	else 
+		return Area(x1, y1, x2 - x1, y2 - y1);
+}
 
