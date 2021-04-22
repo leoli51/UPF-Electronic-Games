@@ -1,0 +1,3 @@
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/CMakeFiles/rebuild_cache.dir
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/CMakeFiles/edit_cache.dir
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/CMakeFiles/TJE.dir
