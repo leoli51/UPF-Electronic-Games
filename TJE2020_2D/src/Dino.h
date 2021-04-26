@@ -20,9 +20,16 @@ class Dino {
         float total_jump_time;
     
     public:
-        Dino(Vector2 position){
-            sprite = new AnimatedSprite("data/green_dino.tga", 24, 1, 0, 4, .4f, position);
-        }
+        Dino(Vector2 position, std::string sprite_name = "data/green_dino.tga", bool anim = true){
+            if (anim)
+                sprite = new AnimatedSprite(sprite_name, 24, 1, 0, 4, .4f, position);
+            else 
+                sprite = new AnimatedSprite(sprite_name, 24, 1, 0, 1, .4f, position);
+        };
+
+        ~Dino(){
+            delete sprite;
+        };
 
         void render(Image* framebuffer) {
             sprite->render(framebuffer);

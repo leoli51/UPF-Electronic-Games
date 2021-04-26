@@ -30,9 +30,9 @@ Game::Game(int window_width, int window_height, SDL_Window* window)
 	minifont = Image::Get("data/mini-font-white-4x6.tga"); //load bitmap-font image
 	sprite = Image::Get("data/spritesheet.tga"); //example to load an sprite
 
-	//enableAudio(); //enable this line if you plan to add audio to your application
-	synth.playSample("data/coin.wav",1,true);
-	synth.osc1.amplitude = 0.5;
+	enableAudio(); //enable this line if you plan to add audio to your application
+	//synth.playSample("data/coin.wav",1,true);
+	//synth.osc1.amplitude = 0.5;
 }
 
 //what to do when the image has to be draw
@@ -96,6 +96,19 @@ void Game::setStage(Stage* stage){
 	if (current_stage != NULL) current_stage->deinit();
 	current_stage = stage;
 	current_stage->init();
+}
+
+void Game::setStage(std::string name){
+	auto it = loaded_stages.find(name);
+	setStage(it->second);
+	//if (it != loaded_stages.end())
+	//	return it->second;
+	//else 
+	//	error;
+}
+
+void Game::addStage(std::string name, Stage* stage){
+	loaded_stages[name] = stage;
 }
 
 //Keyboard event handler (sync input)

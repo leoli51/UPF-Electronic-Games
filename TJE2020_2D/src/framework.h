@@ -269,6 +269,10 @@ public:
 	static const Color CYAN;
 	static const Color YELLOW;
 	static const Color PURPLE;
+	static const Color BRIGHT_SAFFRON;
+	static const Color ELECTRIC_FLAMINGO;
+	static const Color BRIGHT_TEAL;
+	static const Color ELECTRIC_CRIMSON;
 };
 
 inline Color lerp(const Color& a, const Color& b, float f) { return Color((unsigned char)(a.r*(1.0 - f) + b.r*f), (unsigned char)(a.g*(1.0 - f) + b.g*f), (unsigned char)(a.b*(1.0 - f) + b.b*f)); }

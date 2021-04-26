@@ -20,6 +20,10 @@ const Color Color::BLUE(0, 0, 255);
 const Color Color::YELLOW(255, 255, 0);
 const Color Color::CYAN(0, 255, 255);
 const Color Color::PURPLE(255, 0, 255);
+const Color Color::BRIGHT_SAFFRON(0xffcf09);
+const Color Color::ELECTRIC_FLAMINGO(0xfc74fd);
+const Color Color::BRIGHT_TEAL(0x01f9c6);
+const Color Color::ELECTRIC_CRIMSON(0xff003f);
 
 void Color::operator = (const Vector3& v)
 {
@@ -27,6 +31,7 @@ void Color::operator = (const Vector3& v)
 	g = clamp((unsigned char)v.y, 0, 255);
 	b = clamp((unsigned char)v.z, 0, 255);
 }
+
 
 //**************************************
 float Vector2::distance(const Vector2& v)

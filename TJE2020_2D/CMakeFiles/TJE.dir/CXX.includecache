@@ -11,6 +11,8 @@ image.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/image.h
 framework.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
+input.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/input.h
 
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/Dino.h
 framework.h
@@ -26,6 +28,12 @@ Dino.h
 framework.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
 
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/DiscoTiles.h
+framework.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
+image.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/image.h
+
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/GameStages.h
 stage.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/stage.h
@@ -37,6 +45,10 @@ DinoAIController.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/DinoAIController.h
 BeatBar.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/BeatBar.h
+DiscoTiles.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/DiscoTiles.h
+synth.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/synth.h
 
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/PlayerController.h
 Dino.h
@@ -45,6 +57,8 @@ input.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/input.h
 framework.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
+game.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/game.h
 
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/Sprite.h
 framework.h

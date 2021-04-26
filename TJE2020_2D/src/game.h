@@ -17,6 +17,7 @@ public:
 	static Game* instance;
 
 	//stage 
+	std::map<std::string, Stage*> loaded_stages;
 	Stage* current_stage;
 
 	//window
@@ -44,7 +45,9 @@ public:
 
 	void showFramebuffer(Image* img);
 
+	void setStage(std::string name);
 	void setStage(Stage* stage);
+	void addStage(std::string name, Stage* stage);
 	
 	//events
 	void onKeyDown( SDL_KeyboardEvent event );

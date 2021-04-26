@@ -192,7 +192,14 @@ int main(int argc, char **argv)
 
 	//launch the game (game is a global variable)
 	game = new Game(w, h, window);
-	game->setStage(new PlayStage());
+
+	// load stages
+	IntroStage* menu_stage = new IntroStage();
+	PlayStage* party_stage = new PlayStage();
+	game->addStage("menu_stage", menu_stage);
+	game->addStage("party_stage", party_stage);
+
+	game->setStage("menu_stage");
 
 	//main loop, application gets inside here till user closes it
 	mainLoop();
