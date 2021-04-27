@@ -3,7 +3,7 @@
 
 #include "framework.h"
 #include "image.h"
-#include "util.h"
+#include "utils.h"
 
 class Sprite {
 

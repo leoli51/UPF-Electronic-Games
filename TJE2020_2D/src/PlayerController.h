@@ -5,6 +5,7 @@
 #include "input.h"
 #include "framework.h"
 #include "game.h"
+#include <algorithm>
 
 #define MAX_INFLUENCE_RADIUS 30
 #define MIN_INFLUENCE_RADIUS 2

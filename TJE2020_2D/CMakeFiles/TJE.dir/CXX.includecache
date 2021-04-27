@@ -65,8 +65,22 @@ framework.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
 image.h
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/image.h
-util.h
-/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/util.h
+utils.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/utils.h
+
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.cpp
+framework.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
+includes.h
+/Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/includes.h
+cassert
+-
+cmath
+-
+math.h
+-
+string
+-
 
 /Users/laura/Documents/Universita/VideoGames/TJE2020_2D/src/framework.h
 vector

@@ -1332,10 +1332,10 @@ BoundingBox transformBoundingBox(const Matrix44 m, const BoundingBox& box)
 }
 
 Area intersection_rect(const Area& r1, const Area& r2){
-	float x1 = std::max(r1.x, r2.x);
-	float x2 = std::min(r1.x + r1.w, r2.x + r2.w);
-	float y1 = std::max(r1.y, r2.y);
-	float y2 = std::min(r1.y + r1.h, r2.y + r2.h);
+	float x1 = (std::max)(r1.x, r2.x);
+	float x2 = (std::min)(r1.x + r1.w, r2.x + r2.w);
+	float y1 = (std::max)(r1.y, r2.y);
+	float y2 = (std::min)(r1.y + r1.h, r2.y + r2.h);
 
 	if (x2 < x1 || y2 < y1)
 		return NULL_AREA;

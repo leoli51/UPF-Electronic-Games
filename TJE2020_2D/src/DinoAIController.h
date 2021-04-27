@@ -7,6 +7,7 @@
 
 #include "Dino.h"
 #include "framework.h"
+#include <algorithm>
 
 class DinoAIController {
 
