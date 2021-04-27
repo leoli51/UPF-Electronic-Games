@@ -59,6 +59,9 @@ class PlayStage : public Stage {
                 else
                     framebuffer->drawText(std::string(win_message), 0,0,*font);
             }
+            else {
+                framebuffer->drawText("make all dinos dance", 8, 0, *font);
+            }
         };
 
         void update(double dt){
